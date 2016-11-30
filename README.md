@@ -15,7 +15,7 @@ from youtube import YouTube
 api = youtube.YouTube(api_key='')
 ```
 
-## References https://developers.google.com/youtube/v3/docs/videos
+## References https://developers.google.com/youtube/v3/docs/videos/list
 ```python
 video = api.get('videos', id='B7FJV9KIn58')
 ```
