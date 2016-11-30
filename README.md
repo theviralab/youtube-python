@@ -22,7 +22,7 @@ video = api.get('videos', id='B7FJV9KIn58')
 
 ## References https://developers.google.com/youtube/v3/docs/channels/list
 ```python
-video = api.get('channels', id='UCLFZ5qAH-l_WiRd_EOzX2og')
+channel = api.get('channels', id='UCLFZ5qAH-l_WiRd_EOzX2og')
 ```
 
 
