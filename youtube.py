@@ -18,7 +18,7 @@ class YouTube:
         if self.access_token:
             kwargs['access_token'] = self.access_token
         else:
-            kwargs['api_key'] = self.api_key
+            kwargs['key'] = self.api_key
 
         if 'part' not in kwargs:
             kwargs['part'] = self.part
